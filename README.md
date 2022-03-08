@@ -52,6 +52,6 @@ The code provided here is associated with the following publication/webpage:
 
 - Yushu Shi, Liangliang Zhang, Kim-Anh Do, Robert Jenq and Christine B. Peterson (2022). Sparse tree-based clustering of microbiome data to characterize microbiome heterogeneity in pancreatic cancer. 
 
--https://searchcode.com/codesearch/view/2391565/
+-Code for generating samples from Dirichlet distribution [https://searchcode.com/codesearch/view/2391565/](https://searchcode.com/codesearch/view/2391565/)
 
 
