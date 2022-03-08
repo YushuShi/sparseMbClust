@@ -6,7 +6,7 @@ Yushu Shi (shiyushu2006@gmail.com)
 
 ### File organization
 
-The mixture of finite mixture of Dirichlet multinomial (MFMDM) model without tree information can be performed using the R package BayesianMicrobiome. The mixture of finite mixture of Dirichlet tree multinomial (MFMDTM) model with tree information can be implemented using the Matlab code provided in MFMDTMmatlab folder. Here we included one simulated dataset of the scenario 5 of the paper. 
+The mixture of finite mixture of Dirichlet multinomial (MFMDM) model without tree information can be performed using the R package BayesianMicrobiome. The mixture of finite mixture of Dirichlet tree multinomial (MFMDTM) model with tree information can be implemented using the Matlab code provided in MFMDTMmatlab folder. Here we included one simulated dataset of the scenario 5 in the paper. 
 
 #### `Code`
 
