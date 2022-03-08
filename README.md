@@ -2,7 +2,7 @@
 R and Matlab code to reproduce results in "Sparse tree-based clustering of microbiome data to characterize microbiome heterogeneity in pancreatic cancer" by Yushu Shi, Liangliang Zhang, Kim-Anh Do, Robert Jenq and Christine B. Peterson
 
 ### Authors
-Yushu Shi(shiyushu2006@gmail.com)
+Yushu Shi (shiyushu2006@gmail.com)
 
 ### File organization
 
@@ -52,6 +52,6 @@ The code provided here is associated with the following publication/webpage:
 
 - Yushu Shi, Liangliang Zhang, Kim-Anh Do, Robert Jenq and Christine B. Peterson (2022). Sparse tree-based clustering of microbiome data to characterize microbiome heterogeneity in pancreatic cancer. 
 
--Code for generating samples from Dirichlet distribution [https://searchcode.com/codesearch/view/2391565/](https://searchcode.com/codesearch/view/2391565/)
+- Code for generating samples from Dirichlet distribution [https://searchcode.com/codesearch/view/2391565/](https://searchcode.com/codesearch/view/2391565/)
 
 
