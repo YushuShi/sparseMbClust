@@ -1,5 +1,5 @@
 ## Sparse tree-based clustering of microbiome data
-R and Matlab code to reproduce results in "Sparse tree-based clustering of microbiome data to characterize microbiome heterogeneity in pancreatic cancer" by Yushu Shi, Liangliang Zhang, Kim-Anh Do, Robert Jenq and Christine B. Peterson
+R and Matlab code to implement the methods in "Sparse tree-based clustering of microbiome data to characterize microbiome heterogeneity in pancreatic cancer" by Yushu Shi, Liangliang Zhang, Kim-Anh Do, Robert Jenq and Christine B. Peterson
 
 ### Authors
 Yushu Shi (shiyushu2006@gmail.com)
