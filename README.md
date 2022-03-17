@@ -6,19 +6,19 @@ Yushu Shi (shiyushu2006@gmail.com)
 
 ### File organization
 
-The mixture of finite mixture of Dirichlet multinomial (MFMDM) model without tree information can be performed using the R package BayesianMicrobiome. The mixture of finite mixture of Dirichlet tree multinomial (MFMDTM) model with tree information can be implemented using the Matlab code provided in MFMDTMmatlab folder. Here we included one simulated dataset of the scenario 5 in the paper. 
+The mixture of finite mixture of Dirichlet multinomial (MFMDM) model without tree information can be implemented using the R package BayesianMicrobiome. The mixture of finite mixture of Dirichlet tree multinomial (MFMDTM) model with tree information can be implemented using the Matlab code provided in MFMDTMmatlab folder. Here we included one simulated dataset from the scenario 5 of the paper. 
 
 #### Code
 
-- `MFMDTM.m`. This is the main function. If you want to have a hierarchical Beta prior on the feature selection parameter, please specify MFMDTM(0), otherwise, specify MFMDTM(w), where w is the guess of the proportion of features being informative. Here, we recommend using w=0.5 when no further information is know about the data.
+- `MFMDTM.m`. This is the main function. If you want to have a hierarchical Beta prior on the feature selection parameter w, please specify MFMDTM(0), otherwise, specify MFMDTM(w), where w is the guess of the proportion of features being informative. Here, we recommend using w=0.5 when no further information is known about the data.
 
-- `treefunc.m`. Run MCMC iteration for the model without hierarchical Beta prior on the feature selection parameter.
+- `treefunc.m`. Run MCMC iteration for the model without a hierarchical Beta prior on the feature selection parameter.
 
-- `treefuncHier.m`. Run MCMC iteration for the model with hierarchical Beta prior on the feature selection parameter.
+- `treefuncHier.m`. Run MCMC iteration for the model with a hierarchical Beta prior on the feature selection parameter.
 
-- `treefunc.m`. Select features for the model without hierarchical Beta prior on the feature selection parameter.
+- `treefunc.m`. Select features for the model without a hierarchical Beta prior on the feature selection parameter.
 
-- `treefuncHier.m`. Select features for the model with hierachical Beta prior on the feature selection parameter.
+- `treefuncHier.m`. Select features for the model with a hierachical Beta prior on the feature selection parameter.
 
 - `treelikelihood.m`. Calculate likelihood ratio change in add-delete-swap algorithm.
 
@@ -32,9 +32,9 @@ The mixture of finite mixture of Dirichlet multinomial (MFMDM) model without tre
 
 - `drchrnd.m`. Function for generating samples from Dirichlet distribution.
 
-- `logPoissonK.m`. Return log Poisson density function used in MFM model.
+- `logPoissonK.m`. Return log Poisson density function used in the MFM model.
 
-- `logV.m`. Calculate constant terms used in MFM model.
+- `logV.m`. Calculate constant terms used in the MFM model.
 
 #### Output Files
 
@@ -44,7 +44,7 @@ The mixture of finite mixture of Dirichlet multinomial (MFMDM) model without tre
 #### Input Files
 - `phylotreestructure.mat`. A binary matrix showing the topology of the phylogentic tree. Rows correspond to all parent nodes, while columns correspond to children nodes. If there is a linkage between a parent node and a child node, the corresponding entry is one.
 
-- `scenario_5`. 30 simulated observations for scenario 5. Each entry of the matrix shows how many sequence counts passing from a parent node to one of its child node.
+- `scenario_5`. 30 simulated observations for scenario 5. Each entry of the matrix shows how many sequence counts passing from a parent node to its child node.
 
 #### Acknowledgements
 
