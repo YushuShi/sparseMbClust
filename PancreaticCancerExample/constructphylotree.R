@@ -1,8 +1,7 @@
 library(ape)
 library(R.matlab)
 library(magic)
-#setwd("C:/Users/YShi7/Box Sync/work/dpdm/FlorenciaData/data/")
-setwd("C:/Users/ys8wp/Google Drive/BayesianClustering/FlorenciaData/data")
+
 otutable<-read.csv("otutable.csv",header=TRUE,row.names = 1)
 taxonomy<-read.csv("tax.levels.csv",header=TRUE,row.names = 1)
 taxonomy$Silva.ref<-NULL
